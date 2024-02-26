@@ -1,0 +1,174 @@
+body{
+    /* background-color: bisque; */
+    /* background-color: beige; */
+    /* background-color: #d76a03; */
+    background-color: #f0f0d1;
+    /* color: green; */
+    color: #204642;
+padding-top: 20px;
+}
+
+#navbar{
+    background-color: #d76a03;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+   font-size: 50px;
+   text-align: center;
+   position: fixed;
+   left: 0;
+   top: 0;
+}
+
+.navItem{
+    padding: 5px;
+    margin-left: auto;
+}
+
+#leftItem{
+margin-left: 0;
+}
+
+#rightItem{
+display: flex;
+}
+
+#rightItem .navItem {
+    margin-left: 1em;
+}
+
+.navItem a{
+    text-decoration: none;
+    /* color: green; */
+    color: #5a3f20;
+}
+
+#navbar .brand{
+/* color: green; */
+    color: #5a3f20;
+}
+
+#navbar .navItem:hover {
+    background-color: #7d7170;
+}
+
+#coffBar{
+    display: block;
+    padding: 20px;
+    padding-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#Home{
+    text-align: center;
+    font-size: 50px;
+    padding: 10px;
+}
+
+#phome{
+    padding: 5px;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#footer{
+    display: flex;
+    background-color: #d76a03;
+    width: 100%;
+    font-size: 50px;
+    text-align: center;
+    justify-content: space-evenly;
+    position: fixed;
+   left: 0;
+   bottom: 0;
+    
+}
+
+#footer a{
+    text-decoration: none;
+    color: #5a3f20;
+}
+
+#footer .footItem:hover {
+    background-color: #7d7170;
+}
+
+#drinks{
+    font-size: 80px;
+    text-align: center;
+    padding-top: 50px;
+    
+}
+
+#ddesc{
+    padding: 5px;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#pastries{
+    font-size: 80px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+#pdesc{
+    padding: 5px;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#aboutuspage{
+    font-size: 80px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+#dbox{
+    border: blue 5px solid;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    font-size: 40px;
+    justify-content: space-around;
+    }
+
+.ditem{
+    border: red 2px solid;
+/* float: left;
+width: 800px;
+padding: 5px; */
+/* width: 30%; */
+}
+
+.c-img{
+    width: 100%;
+    height: 300px;
+}
+
+#pbox{
+    border: blue 5px solid;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    font-size: 40px;
+    justify-content: space-around;
+    }
+
+.pitem{
+    border: red 2px solid;
+/* float: left;
+width: 800px;
+padding: 5px; */
+/* width: 30%; */
+}
+
+.p-img{
+    width: 100%;
+    height: 300px;
+}
