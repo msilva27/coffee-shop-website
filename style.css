@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap');
+
 body{
     /* background-color: bisque; */
     /* background-color: beige; */
@@ -6,6 +8,7 @@ body{
     /* color: green; */
     color: #204642;
 padding-top: 20px;
+font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 
 #navbar{
@@ -49,7 +52,8 @@ display: flex;
 }
 
 #navbar .navItem:hover {
-    background-color: #7d7170;
+    /* background-color: #7d7170; */
+    background-color: rgb(236, 194, 43);
 }
 
 #coffBar{
@@ -68,8 +72,8 @@ display: flex;
 }
 
 #phome{
-    padding: 5px;
-    font-size: 25px;
+    padding: 30px;
+    font-size: 35px;
     text-align: center;
     margin-bottom: 50px;
 }
@@ -93,7 +97,7 @@ display: flex;
 }
 
 #footer .footItem:hover {
-    background-color: #7d7170;
+    background-color: rgb(236, 194, 43);
 }
 
 #drinks{
@@ -105,7 +109,7 @@ display: flex;
 
 #ddesc{
     padding: 5px;
-    font-size: 25px;
+    font-size: 40px;
     text-align: center;
     margin-bottom: 50px;
 }
@@ -118,7 +122,7 @@ display: flex;
 
 #pdesc{
     padding: 5px;
-    font-size: 25px;
+    font-size: 40px;
     text-align: center;
     margin-bottom: 50px;
 }
@@ -130,21 +134,18 @@ display: flex;
 }
 
 #dbox{
-    border: blue 5px solid;
+    /* border: blue 5px solid; */
     display: flex;
     flex-wrap: wrap;
     text-align: center;
     font-size: 40px;
     justify-content: space-around;
+    padding-top: 100px;
     }
 
-.ditem{
+/* .ditem{
     border: red 2px solid;
-/* float: left;
-width: 800px;
-padding: 5px; */
-/* width: 30%; */
-}
+} */
 
 .c-img{
     width: 100%;
@@ -152,23 +153,27 @@ padding: 5px; */
 }
 
 #pbox{
-    border: blue 5px solid;
+    /* border: blue 5px solid; */
     display: flex;
     flex-wrap: wrap;
     text-align: center;
     font-size: 40px;
     justify-content: space-around;
+    padding-top: 100px;
     }
 
-.pitem{
+/* .pitem{
     border: red 2px solid;
-/* float: left;
-width: 800px;
-padding: 5px; */
-/* width: 30%; */
-}
+} */
 
 .p-img{
     width: 100%;
     height: 300px;
+}
+
+#opentimes{
+    font-size: 30px;
+    padding-left: 20px;
+    margin-left: 5%;
+   
 }
