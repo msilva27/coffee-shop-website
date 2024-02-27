@@ -1,14 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap');
 
 body{
-    /* background-color: bisque; */
-    /* background-color: beige; */
-    /* background-color: #d76a03; */
     background-color: #f0f0d1;
-    /* color: green; */
     color: #204642;
-padding-top: 20px;
-font-family: 'Yanone Kaffeesatz', sans-serif;
+    padding-top: 20px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 
 #navbar{
@@ -42,17 +38,14 @@ display: flex;
 
 .navItem a{
     text-decoration: none;
-    /* color: green; */
     color: #5a3f20;
 }
 
 #navbar .brand{
-/* color: green; */
     color: #5a3f20;
 }
 
 #navbar .navItem:hover {
-    /* background-color: #7d7170; */
     background-color: rgb(236, 194, 43);
 }
 
@@ -171,9 +164,37 @@ display: flex;
     height: 300px;
 }
 
+
+#aucont{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#leftinfo{
+   
+    flex-direction: column;
+}
+
 #opentimes{
     font-size: 30px;
     padding-left: 20px;
     margin-left: 5%;
+    padding-top: 70px;
+}
+
+#address{
    
+    font-size: 30px;
+    padding-left: 20px;
+    margin-left: 5%;
+    padding-top: 70px;
+}
+
+#map{
+   display: inline-flex;
+    margin-left: auto;
+    padding-right: 70px;
+    margin-top: 100px;
+    padding-bottom: 80px;
 }
